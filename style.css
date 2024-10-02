@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'BDCartoonShoutRegular';
+  src: url("BD_Cartoon_Shout-webfont.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: black;
+  overflow: hidden;
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+
+}
+
+h1 {
+  font-family: 'BDCartoonShoutRegular';
+}
+
+canvas {
+  margin-top: 20px;
+  border-radius: 10px;
+  border: solid 5px rgb(76, 57, 44);
+  box-shadow: -2px -2px 148px -3px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: -2px -2px 148px -3px rgba(0, 0, 0, 1);
+  -moz-box-shadow: -2px -2px 148px -3px rgba(0, 0, 0, 1);
+}
